@@ -11,9 +11,7 @@ import SnapPeas from "./SnapPeas";
 function App() {
   return (
     <div className="App">
-      <nav class="navbar">I am your navbar</nav>
       <div className="container max-width: 100% content-wrap">
-      {/* <img src="../public/vending-machine.png" alt="vending machine icon"/>   */}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<VendingMachine />}></Route>

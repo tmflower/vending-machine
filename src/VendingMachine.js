@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const VendingMachine = () => {
     return (
-        <div>                 
+        <div>                
             <div className="overlay">
                 <h1 className="text-center text-primary display-2">Vend-a-Veg</h1>
                 <h4 className="text-center text-secondary display-6">The vending machine for healthy eaters!</h4>
