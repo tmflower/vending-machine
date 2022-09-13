@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import vendingMachineIcon from "./vending-machine.png"
 
 const VendingMachine = () => {
     return (
@@ -9,7 +10,7 @@ const VendingMachine = () => {
                 <h4 className="text-center text-secondary display-6">The vending machine for healthy eaters!</h4>
                 <div className="row m-5">
                     <div className="col-sm">
-                        <img src="../vending-machine.png" alt="vending machine clipart" className="img-fluid max-width: 100% mb-3"/>
+                        <img src={vendingMachineIcon} alt="vending machine clipart" className="img-fluid max-width: 100% mb-3"/>
                     </div>                    
                     <div className="container col-sm">
                         <h5 className="fs-1 text-info text-center">Choose a snack:</h5>

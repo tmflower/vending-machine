@@ -14,12 +14,12 @@ function App() {
       <div className="container max-width: 100% content-wrap">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<VendingMachine />}></Route>
-          <Route path="/cucumbers" element={<Cucumbers name="cucumbers" homeLink={<NavLink to='/'>Back to Vending Machine</NavLink>}/>}></Route>
-          <Route path="/macadamias" element={<Macadamias name="macadamia nuts" homeLink={<NavLink to='/'>Back to Vending Machine</NavLink>} />}></Route>
-          <Route path="/salmon" element={<Salmon name="smoked salmon"  homeLink={<NavLink to='/'>Back to Vending Machine</NavLink>}/>}></Route>
-          <Route path="/papaya" element={<Papaya name="papaya"  homeLink={<NavLink to='/'>Back to Vending Machine</NavLink>}/>}></Route>
-          <Route path="/snappeas" element={<SnapPeas name="snap peas"  homeLink={<NavLink to='/'>Back to Vending Machine</NavLink>}/>}></Route>  
+          <Route path="/vending-machine" element={<VendingMachine />}></Route>
+          <Route path="/cucumbers" element={<Cucumbers name="cucumbers" homeLink={<NavLink to='/vending-machine'>Back to Vending Machine</NavLink>}/>}></Route>
+          <Route path="/macadamias" element={<Macadamias name="macadamia nuts" homeLink={<NavLink to='/vending-machine'>Back to Vending Machine</NavLink>} />}></Route>
+          <Route path="/salmon" element={<Salmon name="smoked salmon"  homeLink={<NavLink to='/vending-machine'>Back to Vending Machine</NavLink>}/>}></Route>
+          <Route path="/papaya" element={<Papaya name="papaya"  homeLink={<NavLink to='/vending-machine'>Back to Vending Machine</NavLink>}/>}></Route>
+          <Route path="/snappeas" element={<SnapPeas name="snap peas"  homeLink={<NavLink to='/vending-machine'>Back to Vending Machine</NavLink>}/>}></Route>  
         </Routes>     
       </BrowserRouter>
       </div>
