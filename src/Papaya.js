@@ -7,9 +7,10 @@ const Papaya = ({ name, homeLink }) => {
             <p className="text-center fs-3">{homeLink}</p>
                 <div className="row m-5">
                     <div className="col-12">
-                        <img className="w-50 rounded mx-auto d-block mb-5" src="../ashleigh-shea-hGC5TQtjzFw-unsplash.jpg" alt="papaya"/>
-                        </div>
+                        <img className="img-fluid max-width: 100% rounded mx-auto d-block mb-5" src="../ashleigh-shea-hGC5TQtjzFw-unsplash.jpg" alt="papaya"/>
+                    </div>
                 </div>
+                <p className="text-center fs-sm">Photo by <a href="https://unsplash.com/@ashleigh86?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ashleigh Shea</a> on <a href="https://unsplash.com/s/photos/papaya?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
         </div>
     )
 }
