@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <div className="container max-width: 100% content-wrap">
       <BrowserRouter >
-        <Routes basename={process.env.PUBLIC_URL}>
+        <Routes>
           <Route path="/vending-machine" element={<VendingMachine />}></Route>
           <Route path="/cucumbers" element={<Cucumbers name="cucumbers" homeLink={<NavLink to='/vending-machine'>Back to Vending Machine</NavLink>}/>}></Route>
           <Route path="/macadamias" element={<Macadamias name="macadamia nuts" homeLink={<NavLink to='/vending-machine'>Back to Vending Machine</NavLink>} />}></Route>
