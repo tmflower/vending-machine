@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/vending-machine/static/css/main.2f0bb659.css",
+    "main.js": "/vending-machine/static/js/main.04797a3a.js",
+    "static/js/787.a3838122.chunk.js": "/vending-machine/static/js/787.a3838122.chunk.js",
+    "static/media/dan-gold-4_jhDO54BYg-unsplash.jpg": "/vending-machine/static/media/dan-gold-4_jhDO54BYg-unsplash.6f635de5fbf89c457bae.jpg",
+    "index.html": "/vending-machine/index.html",
+    "main.2f0bb659.css.map": "/vending-machine/static/css/main.2f0bb659.css.map",
+    "main.04797a3a.js.map": "/vending-machine/static/js/main.04797a3a.js.map",
+    "787.a3838122.chunk.js.map": "/vending-machine/static/js/787.a3838122.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f0bb659.css",
+    "static/js/main.04797a3a.js"
+  ]
+}
