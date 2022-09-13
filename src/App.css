@@ -1,0 +1,32 @@
+@media {
+  
+}
+
+body {
+  background-image: 
+  url("../public/dan-gold-4_jhDO54BYg-unsplash.jpg");
+  background-size: 130%;
+}
+.App {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+.overlay {
+  background-color: rgb(255, 255, 255, .8);
+  margin: 5vw;
+  border-radius: 10px;
+}
+
+footer.main{
+  position: absolute;
+  bottom: 0;
+  font-size: small;
+  background-color: rgb(255, 235, 205, .9);
+  width: 100%;
+  height: 2.5rem;
+}
