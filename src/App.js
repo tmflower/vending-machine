@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <div className="container max-width: 100% content-wrap">
-      {/* <BrowserRouter > */}
+      <BrowserRouter >
         <Routes>
           <Route path="/vending-machine" element={<VendingMachine />}></Route>
           <Route path="/cucumbers" element={<Cucumbers name="cucumbers" homeLink={<NavLink to='/vending-machine'>Back to Vending Machine</NavLink>}/>}></Route>
@@ -21,7 +21,7 @@ function App() {
           <Route path="/papaya" element={<Papaya name="papaya"  homeLink={<NavLink to='/vending-machine'>Back to Vending Machine</NavLink>}/>}></Route>
           <Route path="/snappeas" element={<SnapPeas name="snap peas"  homeLink={<NavLink to='/vending-machine'>Back to Vending Machine</NavLink>}/>}></Route>  
         </Routes>     
-      {/* </BrowserRouter> */}
+      </BrowserRouter>
       </div>
       <footer className="main p-2">Photo by <a href="https://unsplash.com/@danielcgold?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dan Gold</a> on <a href="https://unsplash.com/s/photos/healthy-foods?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
       </footer>
